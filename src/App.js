@@ -27,8 +27,6 @@
 import './main.css';
 import ShopItemFunc from './ShopItemFunc';
 
-function App() {
-// Внутри компонента App
 const item = {
   brand: 'Tiger of Sweden',
   title: 'Leonard coat',
@@ -37,6 +35,9 @@ const item = {
   price: 399,
   currency: '£'
 };
+
+function App() {
+// Внутри компонента App
 
 return (
   <div className="App">
